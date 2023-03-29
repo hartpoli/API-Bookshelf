@@ -1,0 +1,26 @@
+{
+  "name": "api-bookshelf",
+  "version": "1.0.0",
+  "description": "ini adalah proyek untuk bookshelf",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./sumber/server.js",
+    "start-dev": "nodemon ./sumber/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.2",
+    "nanoid": "^3.1.22"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "nodemon": "^2.0.7"
+  }
+}
